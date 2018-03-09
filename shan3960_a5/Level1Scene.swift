@@ -11,15 +11,26 @@ import GameplayKit
 
 class Level1Scene: SKScene {
     let ship = SKSpriteNode(imageNamed: "Spaceship.png")
-    var bullets:[SKSpriteNode]?
+    let invader = SKSpriteNode(imageNamed: "space-invader-small.png")
     let shipSize = CGFloat(50)
     let shipSpeed = CGFloat(25)
+    var timer:Timer?
+
     func setup(){
-        bullets = []
         ship.position = CGPoint(x:0, y:-260)
         ship.size = CGSize(width: shipSize, height: shipSize)
         ship.name="ship"
         addChild(ship)
+        
+        invader.position = CGPoint(x:0,y:200)
+        addChild(invader)
+        let moveLeft = SKAction.moveTo(x: frame.minX + invader.frame.width / 2, duration: 5)
+        let moveRight = SKAction.moveTo(x:frame.maxX - invader.frame.width / 2, duration: 5)
+        invader.run(SKAction.repeatForever(SKAction.sequence([moveLeft,moveRight])))
+        
+        ship.physicsBody = SKPhysicsBody(rectangleOf: ship.size)
+        ship.physicsBody?.isDynamic=true
+        
     }
     override init(size: CGSize) {
         super.init(size: size)
