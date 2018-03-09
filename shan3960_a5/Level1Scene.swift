@@ -70,6 +70,8 @@ class Level1Scene: SKScene, SKPhysicsContactDelegate {
                 bullet.physicsBody?.contactTestBitMask = PhysicsCategory.All
                 bullet.physicsBody?.collisionBitMask = PhysicsCategory.None
                 bullet.run(actionFire)
+                run(SKAction.playSoundFileNamed("Sounds/artillery2.m4a", waitForCompletion: false))
+                
             } else if theNode.name == "LeftButton"{
                 if ship.frame.minX - shipSpeed <= frame.minX {
                     ship.position.x = frame.minX + shipSize/2
@@ -103,13 +105,22 @@ class Level1Scene: SKScene, SKPhysicsContactDelegate {
     }
     
     func projectileDidCollideWithMonster(_ monster:SKSpriteNode, projectile:SKSpriteNode) {
-        run(SKAction.playSoundFileNamed("Sounds/crash.caf", waitForCompletion: false)) // sound does not play! sounds only play if we do not present a new scene!
+        run(SKAction.playSoundFileNamed("Sounds/invaderkilled.wav", waitForCompletion: true))
         print("Hit")
         projectile.removeFromParent()
         monster.removeFromParent()
         let winScene = SKScene(fileNamed: "WinScene")
         let transition = SKTransition.doorway(withDuration: 1.0)
         self.view?.presentScene(winScene!, transition: transition) // we killed the monster, we win!
+    }
+    func projectileDidCollideWithShip(_ ship:SKSpriteNode, projectile:SKSpriteNode) {
+        run(SKAction.playSoundFileNamed("Sounds/scream.mp3", waitForCompletion: true))
+        print("Hit")
+        projectile.removeFromParent()
+        ship.removeFromParent()
+        let loseScene = SKScene(fileNamed: "LoseScene")
+        let transition = SKTransition.doorway(withDuration: 1.0)
+        self.view?.presentScene(loseScene!, transition: transition) // we were killed and we lost
     }
     func didBegin(_ contact: SKPhysicsContact) {
         print("contact")
@@ -120,16 +131,35 @@ class Level1Scene: SKScene, SKPhysicsContactDelegate {
             first = second
             second = tmp
         }
-        if first.categoryBitMask == PhysicsCategory.Projectile && second.categoryBitMask == PhysicsCategory.Ship{
+        if first.categoryBitMask == PhysicsCategory.Projectile && second.categoryBitMask == PhysicsCategory.Ship || first.categoryBitMask == PhysicsCategory.Ship && second.categoryBitMask == PhysicsCategory.Projectile {
             //Dead
-            let label = SKLabelNode(text: "You loose")
-            addChild(label)
+            print("dead")
+            self.projectileDidCollideWithShip(second.node as! SKSpriteNode, projectile: first.node as! SKSpriteNode)
         }else if first.categoryBitMask == PhysicsCategory.Monster && second.categoryBitMask == PhysicsCategory.Projectile {
             projectileDidCollideWithMonster(first.node as! SKSpriteNode, projectile: second.node as! SKSpriteNode)
         }
     }
+    
+    var lastFired:TimeInterval = 0.0
     override func update(_ currentTime: TimeInterval) {
-        // Called before each frame is rendered
+        if currentTime - lastFired > 1 {
+            //invader should fire a bullet
+            let rock = SKSpriteNode(imageNamed: "rock.png")
+            rock.position = invader.position
+            rock.position.y -= 40
+            addChild(rock)
+            let actionFire = SKAction.moveTo(y: -500, duration: 2)
+            rock.physicsBody = SKPhysicsBody(rectangleOf: rock.size)
+            rock.physicsBody?.isDynamic=true
+            rock.physicsBody?.categoryBitMask = PhysicsCategory.Projectile
+            rock.physicsBody?.collisionBitMask = PhysicsCategory.None
+            rock.physicsBody?.contactTestBitMask = PhysicsCategory.All
+            rock.run(actionFire)
+            run(SKAction.playSoundFileNamed("Sounds/artillery2.m4a", waitForCompletion: false))
+            rock.run(actionFire)
+            rock.scale(to: CGSize(width:20, height:20))
+            lastFired = currentTime
+        }
     }
     
 }

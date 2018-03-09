@@ -29,6 +29,7 @@ class MenuScene: SKScene {
     func touchUp(atPoint pos : CGPoint) {
 
     }
+    let backgroundMusic = SKAudioNode(fileNamed: "spaceinvaders-background.mp3")
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         for touch: AnyObject in touches {
@@ -46,8 +47,11 @@ class MenuScene: SKScene {
                 self.view?.presentScene(scene!, transition:transition)
             } else if theNode.name == "PlayMusicLabel" {
                 print("Play music clicked")
+                backgroundMusic.autoplayLooped = true
+                addChild(backgroundMusic)
             } else if theNode.name == "StopMusicLabel" {
                 print("Stop music clicked")
+                removeChildren(in: [backgroundMusic])
             }
         }
         

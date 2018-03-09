@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EE0715922051DFC600A1C7C9 /* InstructionsScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EE0715912051DFC600A1C7C9 /* InstructionsScene.sks */; };
 		EE0715942051E1EC00A1C7C9 /* InstructionsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0715932051E1EC00A1C7C9 /* InstructionsScene.swift */; };
+		EE1E028C205240B900152EF0 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = EE1E028B205240B800152EF0 /* AppIcon.appiconset */; };
 		EE26AE82204E1B57006AC9AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE26AE81204E1B57006AC9AB /* AppDelegate.swift */; };
 		EE26AE84204E1B57006AC9AB /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EE26AE83204E1B57006AC9AB /* MenuScene.sks */; };
 		EE26AE86204E1B57006AC9AB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = EE26AE85204E1B57006AC9AB /* Actions.sks */; };
@@ -42,12 +43,13 @@
 		EED1320F2051F3B200FA38B1 /* Level1Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1320E2051F3B200FA38B1 /* Level1Scene.swift */; };
 		EEEFF19420522C3E0010848F /* PhysicsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEFF19320522C3E0010848F /* PhysicsCategory.swift */; };
 		EEEFF196205234F70010848F /* WinScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EEEFF195205234F70010848F /* WinScene.sks */; };
-		EEEFF1982052350C0010848F /* LooseScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EEEFF1972052350C0010848F /* LooseScene.sks */; };
+		EEEFF1982052350C0010848F /* LoseScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EEEFF1972052350C0010848F /* LoseScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EE0715912051DFC600A1C7C9 /* InstructionsScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = InstructionsScene.sks; sourceTree = "<group>"; };
 		EE0715932051E1EC00A1C7C9 /* InstructionsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsScene.swift; sourceTree = "<group>"; };
+		EE1E028B205240B800152EF0 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
 		EE26AE7E204E1B57006AC9AB /* shan3960_a5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shan3960_a5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE26AE81204E1B57006AC9AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE26AE83204E1B57006AC9AB /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
@@ -83,7 +85,7 @@
 		EED1320E2051F3B200FA38B1 /* Level1Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1Scene.swift; sourceTree = "<group>"; };
 		EEEFF19320522C3E0010848F /* PhysicsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsCategory.swift; sourceTree = "<group>"; };
 		EEEFF195205234F70010848F /* WinScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = WinScene.sks; sourceTree = "<group>"; };
-		EEEFF1972052350C0010848F /* LooseScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LooseScene.sks; sourceTree = "<group>"; };
+		EEEFF1972052350C0010848F /* LoseScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LoseScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				EE26AE89204E1B57006AC9AB /* GameViewController.swift */,
 				EE26AE8B204E1B57006AC9AB /* Main.storyboard */,
 				EE26AE8E204E1B57006AC9AB /* Assets.xcassets */,
+				EE1E028B205240B800152EF0 /* AppIcon.appiconset */,
 				EE73F15A20520A8200A238B8 /* bullet-small.png */,
 				EE73F14E20520A8000A238B8 /* bullet-unit.png */,
 				EE73F15920520A8200A238B8 /* bullet.png */,
@@ -152,7 +155,7 @@
 				EED1320E2051F3B200FA38B1 /* Level1Scene.swift */,
 				EEEFF19320522C3E0010848F /* PhysicsCategory.swift */,
 				EEEFF195205234F70010848F /* WinScene.sks */,
-				EEEFF1972052350C0010848F /* LooseScene.sks */,
+				EEEFF1972052350C0010848F /* LoseScene.sks */,
 			);
 			path = shan3960_a5;
 			sourceTree = "<group>";
@@ -223,7 +226,7 @@
 				EE73F16E20520A8300A238B8 /* bullet.png in Resources */,
 				EE26AE8D204E1B57006AC9AB /* Main.storyboard in Resources */,
 				EE26AE84204E1B57006AC9AB /* MenuScene.sks in Resources */,
-				EEEFF1982052350C0010848F /* LooseScene.sks in Resources */,
+				EEEFF1982052350C0010848F /* LoseScene.sks in Resources */,
 				EE26AE8F204E1B57006AC9AB /* Assets.xcassets in Resources */,
 				EE73F16820520A8300A238B8 /* explosion-small.png in Resources */,
 				EE73F16920520A8300A238B8 /* goBack.png in Resources */,
@@ -234,6 +237,7 @@
 				EE26AE92204E1B57006AC9AB /* LaunchScreen.storyboard in Resources */,
 				EE73F17420520A8300A238B8 /* scream.png in Resources */,
 				EE73F16720520A8300A238B8 /* left-arrow-unit.png in Resources */,
+				EE1E028C205240B900152EF0 /* AppIcon.appiconset in Resources */,
 				EE73F16D20520A8300A238B8 /* Sounds in Resources */,
 				EE73F16520520A8300A238B8 /* right-arrow-unit.png in Resources */,
 				EE73F16C20520A8300A238B8 /* shelter2.png in Resources */,
