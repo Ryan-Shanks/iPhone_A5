@@ -40,6 +40,9 @@
 		EE73F17520520A8300A238B8 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = EE73F16020520A8300A238B8 /* Spaceship.png */; };
 		EED1320D2051F34300FA38B1 /* Level1Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EED1320C2051F34300FA38B1 /* Level1Scene.sks */; };
 		EED1320F2051F3B200FA38B1 /* Level1Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1320E2051F3B200FA38B1 /* Level1Scene.swift */; };
+		EEEFF19420522C3E0010848F /* PhysicsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEFF19320522C3E0010848F /* PhysicsCategory.swift */; };
+		EEEFF196205234F70010848F /* WinScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EEEFF195205234F70010848F /* WinScene.sks */; };
+		EEEFF1982052350C0010848F /* LooseScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EEEFF1972052350C0010848F /* LooseScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +81,9 @@
 		EE73F16020520A8300A238B8 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		EED1320C2051F34300FA38B1 /* Level1Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1Scene.sks; sourceTree = "<group>"; };
 		EED1320E2051F3B200FA38B1 /* Level1Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1Scene.swift; sourceTree = "<group>"; };
+		EEEFF19320522C3E0010848F /* PhysicsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsCategory.swift; sourceTree = "<group>"; };
+		EEEFF195205234F70010848F /* WinScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = WinScene.sks; sourceTree = "<group>"; };
+		EEEFF1972052350C0010848F /* LooseScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LooseScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +150,9 @@
 				EE0715932051E1EC00A1C7C9 /* InstructionsScene.swift */,
 				EED1320C2051F34300FA38B1 /* Level1Scene.sks */,
 				EED1320E2051F3B200FA38B1 /* Level1Scene.swift */,
+				EEEFF19320522C3E0010848F /* PhysicsCategory.swift */,
+				EEEFF195205234F70010848F /* WinScene.sks */,
+				EEEFF1972052350C0010848F /* LooseScene.sks */,
 			);
 			path = shan3960_a5;
 			sourceTree = "<group>";
@@ -214,10 +223,12 @@
 				EE73F16E20520A8300A238B8 /* bullet.png in Resources */,
 				EE26AE8D204E1B57006AC9AB /* Main.storyboard in Resources */,
 				EE26AE84204E1B57006AC9AB /* MenuScene.sks in Resources */,
+				EEEFF1982052350C0010848F /* LooseScene.sks in Resources */,
 				EE26AE8F204E1B57006AC9AB /* Assets.xcassets in Resources */,
 				EE73F16820520A8300A238B8 /* explosion-small.png in Resources */,
 				EE73F16920520A8300A238B8 /* goBack.png in Resources */,
 				EE73F17320520A8300A238B8 /* defenderBullet2.png in Resources */,
+				EEEFF196205234F70010848F /* WinScene.sks in Resources */,
 				EE73F16220520A8300A238B8 /* defender2.png in Resources */,
 				EE73F16420520A8300A238B8 /* PlayButton.png in Resources */,
 				EE26AE92204E1B57006AC9AB /* LaunchScreen.storyboard in Resources */,
@@ -248,6 +259,7 @@
 				EED1320F2051F3B200FA38B1 /* Level1Scene.swift in Sources */,
 				EE26AE88204E1B57006AC9AB /* MenuScene.swift in Sources */,
 				EE0715942051E1EC00A1C7C9 /* InstructionsScene.swift in Sources */,
+				EEEFF19420522C3E0010848F /* PhysicsCategory.swift in Sources */,
 				EE26AE8A204E1B57006AC9AB /* GameViewController.swift in Sources */,
 				EE26AE82204E1B57006AC9AB /* AppDelegate.swift in Sources */,
 			);
