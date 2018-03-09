@@ -36,11 +36,13 @@ class MenuScene: SKScene {
             let theNode = self.atPoint(location)
             if theNode.name == "PlayLabel" {
                 print("Play button clicked")
+                let transition = SKTransition.doorsOpenVertical(withDuration: 2)
+                let scene = SKScene(fileNamed: "Level1Scene")
+                self.view?.presentScene(scene!, transition:transition)
             } else if theNode.name == "InstructionsLabel"{
                 print ("Instructions button clicked")
                 let transition = SKTransition.moveIn(with: SKTransitionDirection.left, duration: 2)
                 let scene = SKScene(fileNamed: "InstructionsScene")
-                //let instructionScene = InstructionsScene(size:self.size)
                 self.view?.presentScene(scene!, transition:transition)
             } else if theNode.name == "PlayMusicLabel" {
                 print("Play music clicked")

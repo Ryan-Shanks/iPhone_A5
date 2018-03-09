@@ -17,6 +17,27 @@
 		EE26AE8D204E1B57006AC9AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE26AE8B204E1B57006AC9AB /* Main.storyboard */; };
 		EE26AE8F204E1B57006AC9AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE26AE8E204E1B57006AC9AB /* Assets.xcassets */; };
 		EE26AE92204E1B57006AC9AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE26AE90204E1B57006AC9AB /* LaunchScreen.storyboard */; };
+		EE73F1372052077100A238B8 /* InstructionButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EE73F1222052076D00A238B8 /* InstructionButton.png */; };
+		EE73F1382052077100A238B8 /* scream.png in Resources */ = {isa = PBXBuildFile; fileRef = EE73F1232052076D00A238B8 /* scream.png */; };
+		EE73F1392052077100A238B8 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = EE73F1242052076E00A238B8 /* Spaceship.png */; };
+		EE73F13A2052077100A238B8 /* defender2.png in Resources */ = {isa = PBXBuildFile; fileRef = EE73F1252052076E00A238B8 /* defender2.png */; };
+		EE73F13B2052077100A238B8 /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EE73F1262052076E00A238B8 /* PlayButton.png */; };
+		EE73F13C2052077100A238B8 /* right-arrow-unit.png in Resources */ = {isa = PBXBuildFile; fileRef = EE73F1272052076E00A238B8 /* right-arrow-unit.png */; };
+		EE73F13D2052077100A238B8 /* space-invader-small.png in Resources */ = {isa = PBXBuildFile; fileRef = EE73F1282052076E00A238B8 /* space-invader-small.png */; };
+		EE73F13E2052077100A238B8 /* left-arrow-unit.png in Resources */ = {isa = PBXBuildFile; fileRef = EE73F1292052076E00A238B8 /* left-arrow-unit.png */; };
+		EE73F13F2052077100A238B8 /* explosion-small.png in Resources */ = {isa = PBXBuildFile; fileRef = EE73F12A2052076E00A238B8 /* explosion-small.png */; };
+		EE73F1402052077100A238B8 /* goBack.png in Resources */ = {isa = PBXBuildFile; fileRef = EE73F12B2052076E00A238B8 /* goBack.png */; };
+		EE73F1412052077100A238B8 /* StopMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = EE73F12C2052076F00A238B8 /* StopMusic.png */; };
+		EE73F1422052077100A238B8 /* PlayMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = EE73F12D2052076F00A238B8 /* PlayMusic.png */; };
+		EE73F1432052077100A238B8 /* bullet-small.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EE73F12E2052076F00A238B8 /* bullet-small.jpeg */; };
+		EE73F1442052077100A238B8 /* shelter2.png in Resources */ = {isa = PBXBuildFile; fileRef = EE73F12F2052076F00A238B8 /* shelter2.png */; };
+		EE73F1452052077100A238B8 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = EE73F1302052076F00A238B8 /* Sounds */; };
+		EE73F1462052077100A238B8 /* right-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EE73F1312052077000A238B8 /* right-arrow.png */; };
+		EE73F1472052077100A238B8 /* bullet-unit.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EE73F1322052077000A238B8 /* bullet-unit.jpeg */; };
+		EE73F1482052077100A238B8 /* left-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EE73F1332052077000A238B8 /* left-arrow.png */; };
+		EE73F1492052077100A238B8 /* defenderBullet2.png in Resources */ = {isa = PBXBuildFile; fileRef = EE73F1342052077000A238B8 /* defenderBullet2.png */; };
+		EE73F14A2052077100A238B8 /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = EE73F1352052077000A238B8 /* rock.png */; };
+		EE73F14B2052077100A238B8 /* bullet.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EE73F1362052077000A238B8 /* bullet.jpeg */; };
 		EED1320D2051F34300FA38B1 /* Level1Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EED1320C2051F34300FA38B1 /* Level1Scene.sks */; };
 		EED1320F2051F3B200FA38B1 /* Level1Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1320E2051F3B200FA38B1 /* Level1Scene.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +55,27 @@
 		EE26AE8E204E1B57006AC9AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE26AE91204E1B57006AC9AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE26AE93204E1B57006AC9AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE73F1222052076D00A238B8 /* InstructionButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InstructionButton.png; sourceTree = "<group>"; };
+		EE73F1232052076D00A238B8 /* scream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scream.png; sourceTree = "<group>"; };
+		EE73F1242052076E00A238B8 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		EE73F1252052076E00A238B8 /* defender2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defender2.png; sourceTree = "<group>"; };
+		EE73F1262052076E00A238B8 /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
+		EE73F1272052076E00A238B8 /* right-arrow-unit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-arrow-unit.png"; sourceTree = "<group>"; };
+		EE73F1282052076E00A238B8 /* space-invader-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "space-invader-small.png"; sourceTree = "<group>"; };
+		EE73F1292052076E00A238B8 /* left-arrow-unit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow-unit.png"; sourceTree = "<group>"; };
+		EE73F12A2052076E00A238B8 /* explosion-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "explosion-small.png"; sourceTree = "<group>"; };
+		EE73F12B2052076E00A238B8 /* goBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goBack.png; sourceTree = "<group>"; };
+		EE73F12C2052076F00A238B8 /* StopMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StopMusic.png; sourceTree = "<group>"; };
+		EE73F12D2052076F00A238B8 /* PlayMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayMusic.png; sourceTree = "<group>"; };
+		EE73F12E2052076F00A238B8 /* bullet-small.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bullet-small.jpeg"; sourceTree = "<group>"; };
+		EE73F12F2052076F00A238B8 /* shelter2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shelter2.png; sourceTree = "<group>"; };
+		EE73F1302052076F00A238B8 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		EE73F1312052077000A238B8 /* right-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-arrow.png"; sourceTree = "<group>"; };
+		EE73F1322052077000A238B8 /* bullet-unit.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bullet-unit.jpeg"; sourceTree = "<group>"; };
+		EE73F1332052077000A238B8 /* left-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow.png"; sourceTree = "<group>"; };
+		EE73F1342052077000A238B8 /* defenderBullet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defenderBullet2.png; sourceTree = "<group>"; };
+		EE73F1352052077000A238B8 /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
+		EE73F1362052077000A238B8 /* bullet.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullet.jpeg; sourceTree = "<group>"; };
 		EED1320C2051F34300FA38B1 /* Level1Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1Scene.sks; sourceTree = "<group>"; };
 		EED1320E2051F3B200FA38B1 /* Level1Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1Scene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +117,27 @@
 				EE26AE89204E1B57006AC9AB /* GameViewController.swift */,
 				EE26AE8B204E1B57006AC9AB /* Main.storyboard */,
 				EE26AE8E204E1B57006AC9AB /* Assets.xcassets */,
+				EE73F12E2052076F00A238B8 /* bullet-small.jpeg */,
+				EE73F1322052077000A238B8 /* bullet-unit.jpeg */,
+				EE73F1362052077000A238B8 /* bullet.jpeg */,
+				EE73F1252052076E00A238B8 /* defender2.png */,
+				EE73F1342052077000A238B8 /* defenderBullet2.png */,
+				EE73F12A2052076E00A238B8 /* explosion-small.png */,
+				EE73F12B2052076E00A238B8 /* goBack.png */,
+				EE73F1222052076D00A238B8 /* InstructionButton.png */,
+				EE73F1292052076E00A238B8 /* left-arrow-unit.png */,
+				EE73F1332052077000A238B8 /* left-arrow.png */,
+				EE73F1262052076E00A238B8 /* PlayButton.png */,
+				EE73F12D2052076F00A238B8 /* PlayMusic.png */,
+				EE73F1272052076E00A238B8 /* right-arrow-unit.png */,
+				EE73F1312052077000A238B8 /* right-arrow.png */,
+				EE73F1352052077000A238B8 /* rock.png */,
+				EE73F1232052076D00A238B8 /* scream.png */,
+				EE73F12F2052076F00A238B8 /* shelter2.png */,
+				EE73F1302052076F00A238B8 /* Sounds */,
+				EE73F1282052076E00A238B8 /* space-invader-small.png */,
+				EE73F1242052076E00A238B8 /* Spaceship.png */,
+				EE73F12C2052076F00A238B8 /* StopMusic.png */,
 				EE26AE90204E1B57006AC9AB /* LaunchScreen.storyboard */,
 				EE26AE93204E1B57006AC9AB /* Info.plist */,
 				EE0715912051DFC600A1C7C9 /* InstructionsScene.sks */,
@@ -144,12 +207,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE73F1392052077100A238B8 /* Spaceship.png in Resources */,
+				EE73F1462052077100A238B8 /* right-arrow.png in Resources */,
+				EE73F14A2052077100A238B8 /* rock.png in Resources */,
+				EE73F14B2052077100A238B8 /* bullet.jpeg in Resources */,
+				EE73F13C2052077100A238B8 /* right-arrow-unit.png in Resources */,
+				EE73F1442052077100A238B8 /* shelter2.png in Resources */,
 				EE26AE8D204E1B57006AC9AB /* Main.storyboard in Resources */,
+				EE73F1452052077100A238B8 /* Sounds in Resources */,
+				EE73F1432052077100A238B8 /* bullet-small.jpeg in Resources */,
+				EE73F1422052077100A238B8 /* PlayMusic.png in Resources */,
 				EE26AE84204E1B57006AC9AB /* MenuScene.sks in Resources */,
+				EE73F1492052077100A238B8 /* defenderBullet2.png in Resources */,
+				EE73F1472052077100A238B8 /* bullet-unit.jpeg in Resources */,
+				EE73F13B2052077100A238B8 /* PlayButton.png in Resources */,
+				EE73F13A2052077100A238B8 /* defender2.png in Resources */,
 				EE26AE8F204E1B57006AC9AB /* Assets.xcassets in Resources */,
 				EE26AE92204E1B57006AC9AB /* LaunchScreen.storyboard in Resources */,
+				EE73F13D2052077100A238B8 /* space-invader-small.png in Resources */,
+				EE73F1382052077100A238B8 /* scream.png in Resources */,
+				EE73F13E2052077100A238B8 /* left-arrow-unit.png in Resources */,
+				EE73F1412052077100A238B8 /* StopMusic.png in Resources */,
 				EE0715922051DFC600A1C7C9 /* InstructionsScene.sks in Resources */,
+				EE73F1482052077100A238B8 /* left-arrow.png in Resources */,
 				EE26AE86204E1B57006AC9AB /* Actions.sks in Resources */,
+				EE73F13F2052077100A238B8 /* explosion-small.png in Resources */,
+				EE73F1402052077100A238B8 /* goBack.png in Resources */,
+				EE73F1372052077100A238B8 /* InstructionButton.png in Resources */,
 				EED1320D2051F34300FA38B1 /* Level1Scene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
